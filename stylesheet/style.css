@@ -194,7 +194,7 @@ img.arrow:hover {
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
-    padding: 0.3em;
+    padding: 0.3em 0.3em 2.5em 0.3em;
     justify-content: space-between;
 }
 .mytabs input[type="radio"] {
