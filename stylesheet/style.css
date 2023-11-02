@@ -189,17 +189,98 @@ img.arrow:hover {
     padding: 6em 0  0   0;
 }
 
-/*OPMAAK FOOTER DOE MEE*/
-.secties {
+/*OPMAAK FOOTER TABS*/
+.mytabs {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+    padding: 0.3em;
     justify-content: space-between;
-    font-size: 0.9em;
-    color: #89A66F;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    color: #091805;
+    font-size: 1em;
+    padding: 1em 2em 0.5em 2em;
+    border-radius: 1em 2em 0 0;
+    background: #89A66F;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 319px) {
+    .mytabs label {
+        font-size: 1em;
+        padding: 1em 1.5em 0.5em 1.5em;
+        border-radius: 1em 2em 0 0;
+        background: #89A66F;
+        font-weight: bold;
+        flex-wrap: wrap;
+    }
+}
+
+.tab p {
+    padding: 0em  0  1em   0.3em;
+}
+
+.tab h3 {
+    color: #265c19;
+    padding: 0.15em 0 0.15em 0.3em;
+}
+
+.tab h3:hover {
+    background-color: #c0d0b3;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 0  0   1.3em 0;
+    border-radius: 0    0   0.5em 0.5em;
+    background: #D4DFCA;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    padding: 0.3em  0  0   0.3em;
+    font-size: 2em;
+    color: #265c19;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #D4DFCA;
+}
+
+/*OPMAAK INSPIRATIE*/
+
+
+/*OPMAAK FOOTER DOE MEE*/
+/*.secties {
+    display: flex;
+    color: #265c19;
 }
 
 .secties h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
     background: red;
     padding: 0.5em 0.5em 0em  0.5em;
     border-radius: 25% 25%   0   0;
+    cursor: pointer;
 }
+
+.secties h3 {
+    font-size: 1em;
+}
+
+.secties h2:hover {
+    background: blue;
+    padding: 0.5em 0.5em 0em  0.5em;
+    border-radius: 25% 25%   0   0;
+}*/
