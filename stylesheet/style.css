@@ -125,14 +125,10 @@ main p {
 }
 
 /*OPMAAK footer*/
-.knoppen {
+.doemee, .inspo{
     display: flex;
-    flex-direction: column;
-}
-
-div {
-    display: flex;
-    padding-bottom: 1em;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -140,8 +136,9 @@ a {
 }
 
 .knoppen img {
-    width: 5em;
-    padding: 0.3em;
+    width: 4em;
+    padding-left: 10%;
+    padding-right: 0.3em;
 }
 
 .knoppen h2 {
@@ -150,7 +147,7 @@ a {
 }
 
 .knoppen p {
-    font-size: 0.5em;
+    font-size: 1em;
     color: #265c19;
 }
 
@@ -162,8 +159,13 @@ a {
 }
 
 img.arrow {
-    padding: 1.5em 5% 1em 0;
+    padding-top: 1em;
+    padding-right: 10%;
     width: 3em;
+}
+
+img.arrow:hover {
+    width: 3.2em;
 }
 
 /*OPMAAK MAIN VOOR DOE MEE EN INSPIRATIE*/
