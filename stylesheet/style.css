@@ -257,7 +257,32 @@ img.arrow:hover {
 }
 
 /*OPMAAK INSPIRATIE*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
 
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .dream  {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .dream img  {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
 
 /*OPMAAK FOOTER DOE MEE*/
 /*.secties {
