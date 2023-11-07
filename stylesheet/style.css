@@ -278,3 +278,8 @@ img.arrow:hover {
     width: 11em;
     padding: 0 1em 1em 0.5em;
 }
+
+.dream img:hover {
+    width: 11em;
+    padding: 0 0.8em 0.8em 0.3em;
+}
