@@ -221,6 +221,22 @@ img.arrow:hover {
     }
 }
 
+.pijltje {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pijltje img {
+    width: 1em;
+    margin-left: 0.5em;
+}
+
+.pijltje img:hover {
+    transition: 0.3s;
+    width: 1.1em;
+}
+
 .tab p {
     padding: 0em  0  1em   0.3em;
 }
@@ -254,6 +270,7 @@ img.arrow:hover {
 
 .mytabs input[type="radio"]:checked + label {
     background: #D4DFCA;
+    transition: 0.4s;
 }
 
 /*OPMAAK INSPIRATIE*/
