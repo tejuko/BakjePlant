@@ -221,12 +221,6 @@ img.arrow:hover {
     }
 }
 
-.pijltje {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .pijltje img {
     width: 1em;
     margin-left: 0.5em;
