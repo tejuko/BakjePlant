@@ -202,12 +202,34 @@ img.arrow:hover {
 }
 .mytabs label {
     color: #091805;
-    font-size: 1em;
-    padding: 1em 2.7em 0.5em 2.7em;
+    font-size: 1.2em;
+    padding: 1em 1.5em 0.5em 1.5em;
     border-radius: 1em 2em 0 0;
     background: #89A66F;
     font-weight: bold;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 371.20px) {
+    .mytabs label {
+        font-size: 1.2em;
+        padding: 1em 1.2em 0.5em 1.2em;
+        border-radius: 1em 2em 0 0;
+        background: #89A66F;
+        font-weight: bold;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mytabs label {
+        font-size: 1.1em;
+        padding: 1em 1em 0.5em 1em;
+        border-radius: 1em 2em 0 0;
+        background: #89A66F;
+        font-weight: bold;
+        flex-wrap: wrap;
+    }
 }
 
 .pijltje img {
