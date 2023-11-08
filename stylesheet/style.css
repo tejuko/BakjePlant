@@ -14,7 +14,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 5%;
+    padding: 0.5em 0.3em 0.5em 0.8em;
     background: #F2F2EB;
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,7 @@ body {
 }
 
 .icons img {
-    right: 5%;
+    padding-right: 0em;
     width: 1.5em;
     cursor: pointer;
     display: none;
