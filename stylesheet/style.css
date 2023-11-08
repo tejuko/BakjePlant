@@ -189,7 +189,7 @@ img.arrow:hover {
     padding: 6em 0  0   0;
 }
 
-/*OPMAAK FOOTER TABS*/
+/*OPMAAK FOOTER TABS IN DOE MEE*/
 .mytabs {
     display: flex;
     flex-wrap: wrap;
@@ -236,6 +236,7 @@ img.arrow:hover {
 }
 
 .tab h3 {
+    text-decoration: underline;
     color: #265c19;
     padding: 0.15em 0 0.15em 0.3em;
 }
