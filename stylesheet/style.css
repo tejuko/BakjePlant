@@ -249,7 +249,7 @@ img.arrow:hover {
 .tab h3 {
     text-decoration: underline;
     color: #265c19;
-    padding: 0.15em 0 0.15em 0.3em;
+    padding: 0.5em 0.3em 0.5em 0.3em;
 }
 
 .tab h3:hover {
